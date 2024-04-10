@@ -1,0 +1,136 @@
+.card {
+  width: calc(25% - 2rem);
+  height: 220px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 13px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+}
+
+
+.cookieHeading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgb(26, 26, 26);
+  margin-left: 1rem;
+  margin-top: -2rem;
+}
+
+.cookieDescription {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(99, 99, 99);
+  margin-top: -2rem;
+}
+
+.cookieDescription a {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246);
+}
+
+.cookieDescription a:hover {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.acceptButton {
+  width: 80px;
+  height: 30px;
+  background-color: #7b57ff;
+  transition-duration: .2s;
+  border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
+  transition: all .6s ease;
+}
+
+.declineButton {
+  width: 80px;
+  height: 30px;
+  background-color: #dadada;
+  transition-duration: .2s;
+  color: rgb(46, 46, 46);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px #bebdbd, 0 2px 4px -1px #bebdbd;
+  transition: all .6s ease;
+}
+
+.declineButton:hover {
+  background-color: #ebebeb;
+  box-shadow: 0 10px 15px -3px #bebdbd, 0 4px 6px -2px #bebdbd;
+  transition-duration: .2s;
+}
+
+.acceptButton:hover {
+  background-color: #9173ff;
+  box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
+  transition-duration: .2s;
+}
+
+
+
+.edit-textarea,
+.edit-wrapper input{
+  width: 100%;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  border: 2px solid transparent;
+  
+}
+
+.edit-wrapper button{
+  background-color: #7b57ff;
+  width: 5rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.viewtask-container{
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: calc(33.333% - 2rem);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}

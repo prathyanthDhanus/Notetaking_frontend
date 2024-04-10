@@ -1,0 +1,83 @@
+.home-container {
+    width: 60%;
+    height: 40rem;
+    border-radius: 3rem;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin-left: 16rem;
+    margin-top: 4rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home-container {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+    .home-wrapper {
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+    .description-input,
+    .colour-input,
+    .title-input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    
+    .view-taskbtn {
+      width: 100%;
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+  
+  .home-wrapper {
+    width: 10rem;
+    margin-left: 8rem;
+    margin-bottom: -5rem;
+  }
+  
+  .description-input,
+  .colour-input,
+  .title-input {
+    padding: 2rem;
+    height: 3rem;
+    width: 20rem;
+  }
+  
+  .description-input input,
+  .colour-input input,
+  .title-input input {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 2px solid yellow;
+  }
+  
+  .home-savebtn button {
+    margin-left: 10rem;
+    border-radius: 1rem;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(123, 253, 45, 1) 88%);
+  }
+  
+  .view-taskbtn {
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+    margin-left: 5rem;
+    margin-top: -5rem;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(249, 253, 45, 1) 100%);
+  }

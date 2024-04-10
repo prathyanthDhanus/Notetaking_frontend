@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import Register from './Pages/Register'
 import { Route, Routes } from 'react-router-dom'
 import Login from './Pages/Login'
+import ViewNotes from './Pages/ViewNotes'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <Route path='/' Component={Home} />
      <Route path='/register' Component={Register} />
      <Route path='/login' Component={Login} />
+     <Route path='/view/notes' Component={ViewNotes} />
     </Routes>
       
     </>
